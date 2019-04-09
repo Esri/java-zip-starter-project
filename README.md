@@ -21,7 +21,7 @@ The app launches a window displaying a map.
 10. Add another _Java_ library. This time select all of the jars in the javafx-sdk-11.0.1/lib directory.
 11. In the main menu, select _Run > Edit Configurations..._. Create a new _Application_ type configuration called `App`. In the _Main class_ field, enter `com.mycompany.app.App`. In the _VM options_ field, enter `--module-path ./javafx-sdk-11.0.1/lib --add-modules=javafx.controls,javafx.fxml,javafx.web,javafx.swing,javafx.media`. Then click _OK_.
 12. Build the project by selecting _Build > Build Project_. You should see output created in the bin folder.
-12. To run the app, select _Run > \`App\`.
+13. To run the app, select _Run > \`App\`.
 
 ### Eclipse
 1. Open Eclipse and select _File > Open Projects from File System..._.
