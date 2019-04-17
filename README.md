@@ -1,4 +1,4 @@
-# arcgis-java-zip-starter-project
+# java-zip-starter-project
 
 Here is a starter project for the ArcGIS Runtime SDK for Java with the SDK zip.
 
@@ -13,7 +13,7 @@ The app launches a window displaying a map.
 ### IntelliJ IDEA
 
 1. Open IntelliJ IDEA and select _File > Open..._.
-2. Choose the arcgis-java-zip-starter-project directory and click _OK_.
+2. Choose the java-zip-starter-project directory and click _OK_.
 3. Copy the libs, jniLibs, and resources directories from the unpacked SDK zip into the project root.
 4. Copy the unpacked Javafx SDK into the project.
 5. Create a "bin" directory in the root of the project. This is where your compiled source will go.
@@ -29,7 +29,7 @@ The app launches a window displaying a map.
 ### Eclipse
 
 1. Open Eclipse and select _File > Open Projects from File System..._.
-2. In the wizard, select the arcgis-java-zip-starter-project in the _Import source_ field. Then click _Finish_.
+2. In the wizard, select the java-zip-starter-project in the _Import source_ field. Then click _Finish_.
 3. Copy the libs, jniLibs, and resources directories from the unpacked SDK zip into the project root.
 4. Copy the unpacked Javafx SDK into the project.
 5. Create a "bin" directory in the root of the project. This is where your compiled source will go.
