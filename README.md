@@ -2,7 +2,7 @@
 
 Here is a starter project for the ArcGIS Runtime SDK for Java with the SDK zip.
 
-Make sure you have downloaded the Runtime SDK for Java and OpenJFX 11.0.1.
+Make sure you have downloaded the Runtime SDK for Java and OpenJFX 11.0.2.
 
 The app launches a window displaying a map.
 
@@ -21,8 +21,8 @@ The app launches a window displaying a map.
 7. Under _Project_, ensure that the Project SDK and language level are set to use Java 11. Select the bin folder you created in the _Project compiler output_ field.
 8. Under _Modules_, select the java directory under src/main and mark it as _Sources_.
 9. Under _Libraries_, add a new _Java_ library. In the _Select Project Files_ dialog, select all of the jars inside the libs directory you copied earlier.
-10. Add another _Java_ library. This time select all of the jars in the javafx-sdk-11.0.1/lib directory.
-11. In the main menu, select _Run > Edit Configurations..._. Create a new _Application_ type configuration called `App`. In the _Main class_ field, enter `com.mycompany.app.App`. In the _VM options_ field, enter `--module-path ./javafx-sdk-11.0.1/lib --add-modules=javafx.controls,javafx.fxml,javafx.web,javafx.swing,javafx.media`. Then click _OK_.
+10. Add another _Java_ library. This time select all of the jars in the javafx-sdk-11.0.2/lib directory.
+11. In the main menu, select _Run > Edit Configurations..._. Create a new _Application_ type configuration called `App`. In the _Main class_ field, enter `com.mycompany.app.App`. In the _VM options_ field, enter `--module-path ./javafx-sdk-11.0.2/lib --add-modules=javafx.controls,javafx.fxml,javafx.web,javafx.swing,javafx.media`. Then click _OK_.
 12. Build the project by selecting _Build > Build Project_. You should see output created in the bin folder.
 13. To run the app, select _Run > \`App\`.
 
@@ -36,15 +36,15 @@ The app launches a window displaying a map.
 6. Right-click the project in the _Project Explorer_ or _Package Explorer_ and select _Build Path > Configure Build Path..._.
 7. Under _Java Build Path_, in the _Source_ tab, choose _Add Folder..._ and select the java directory under src/main. In the _Default output folder_ field, choose the bin folder you created earlier.
 8. In the _Libraries_ tab, select _Modulepath_ and click _Add Library..._. Add a JRE System Library pointing to your JDK 11 installation.
-9. Select _Classpath_ and click _Add JARs..._. Select all of the jars from the libs folder you copied earlier and all of the jars in the javafx-sdk-11.0.1/lib directory.
+9. Select _Classpath_ and click _Add JARs..._. Select all of the jars from the libs folder you copied earlier and all of the jars in the javafx-sdk-11.0.2/lib directory.
 10. Choose _Apply and Close_ to save the changes.
 11. Make sure the project is set to build automatically: _Project > Build Automatically_ is checked.
-12. In the main menu, select _Run > Run Configurations..._. Create a new _Java Application_ type configuration called `App`. In the _Main class_ field, enter `com.mycompany.app.App`. In the _Arguments_ tab, enter the following _VM arguments_: `--module-path ./javafx-sdk-11.0.1/lib --add-modules=javafx.controls,javafx.fxml,javafx.web,javafx.swing,javafx.media`.
+12. In the main menu, select _Run > Run Configurations..._. Create a new _Java Application_ type configuration called `App`. In the _Main class_ field, enter `com.mycompany.app.App`. In the _Arguments_ tab, enter the following _VM arguments_: `--module-path ./javafx-sdk-11.0.2/lib --add-modules=javafx.controls,javafx.fxml,javafx.web,javafx.swing,javafx.media`.
 13. Click _Run_ to run the app.
 
 ## Requirements
 
-See the Runtime SDK's [system requirements](https://developers.arcgis.com/java/latest/guide/system-requirements-for-quartz.htm).
+See the Runtime SDK's [system requirements](https://developers.arcgis.com/java/latest/guide/system-requirements.htm).
 
 ## Resources
 
