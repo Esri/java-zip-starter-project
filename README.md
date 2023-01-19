@@ -48,7 +48,7 @@ See the Java Maps SDK [system requirements](https://developers.arcgis.com/java/r
 
 ## Resources
 
-* [ArcGIS Runtime SDK for Java](https://developers.arcgis.com/java/)  
+* [ArcGIS Maps SDK for Java](https://developers.arcgis.com/java/)  
 * [ArcGIS Blog](https://www.esri.com/arcgis-blog/developers/)  
 * [Esri Twitter](https://twitter.com/arcgisdevs)
 
