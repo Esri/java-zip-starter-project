@@ -2,7 +2,7 @@
 
 Here is a starter project for the ArcGIS Maps SDK for Java with the SDK zip.
 
-Make sure you have downloaded the Java Maps SDK and OpenJFX 11.0.2.
+Make sure you have downloaded the Java Maps SDK and OpenJFX 17.
 
 The app launches a window displaying a map.
 
