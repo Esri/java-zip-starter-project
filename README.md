@@ -21,7 +21,7 @@ The app launches a window displaying a map.
 7. Under _Project_, ensure that the Project SDK and language level are set to use Java 17. Select the bin folder you created in the _Project compiler output_ field.
 8. Under _Modules_, select the java directory under src/main and mark it as _Sources_.
 9. Under _Libraries_, add a new _Java_ library. In the _Select Project Files_ dialog, select all of the jars inside the libs directory you copied earlier.
-10. Add another _Java_ library. This time select all of the jars in the javafx-sdk-17.0.7/lib directory.
+10. Add another _Java_ library. This time select all of the jars in the javafx-sdk-17.0.8/lib directory.
 11. In the main menu, select _Run > Edit Configurations..._. Create a new _Application_ type configuration called `App`. In the _Main class_ field, enter `com.mycompany.app.App`. In the _VM options_ field, enter `--module-path ./javafx-sdk-17.0.7/lib --add-modules=javafx.controls,javafx.fxml,javafx.web,javafx.swing,javafx.media`. Then click _OK_.
 12. Build the project by selecting _Build > Build Project_. You should see output created in the bin folder.
 13. To run the app, select _Run > \`App\`.
